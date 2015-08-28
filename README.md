@@ -3,6 +3,7 @@ This is our first project in Unity, we will be working on a quick first project 
 
 We are assigning jobs to each member as follows:
 
+
 Alex:
 
 -Project Management
@@ -11,6 +12,7 @@ Alex:
 
 -Github Maitanance
 
+
 Steve:
 
 -Enviromental Designer
@@ -18,6 +20,7 @@ Steve:
 -Technical Artist
 
 -Level Designer
+
 
 Robert:
 
