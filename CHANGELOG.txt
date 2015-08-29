@@ -1,4 +1,7 @@
-Changes to project.
+Changes to project. Only Alex will be choosing when the version changes, so just add to the latest.
 
-Pre Alpha V1.0:
--
+(29/08/15 - TBA) Pre-Alpha V1.0:
+-Imported a temporary sprite sheet.
+-Cut out 2 sprites, a player and a floor block.
+-Added collision boxes for both the player and the floor, box 2D for the floor, and a circle 2D for the player.
+-Added a Rigid body, which in short; adds gravity. I also fixed the Z axis to keep the player upright.
