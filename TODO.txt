@@ -1,6 +1,6 @@
 TODO:
 
-bugs:
+bugs (Fix before attempting to add features):
 -Fix gliding character.
 -Fix collision boxes to stop the character sticking to the walls.
 

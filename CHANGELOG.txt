@@ -9,3 +9,7 @@ Changes to project. Only Alex will be choosing when the version changes, so just
 -Added simple movement.
 -Added a simple follow camera.
 -Ground checking added, stops the player from jumping in the air.
+-New sprite sheet.
+-Increased friction.
+-Tweaked Collision boxes and positions.
+-Changed Background colour.
