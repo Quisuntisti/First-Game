@@ -1,0 +1,13 @@
+TODO:
+
+bugs:
+-Fix gliding character.
+-Fix collision boxes to stop the character sticking to the walls.
+
+features:
+-Add simple enemy, spikes in this case.
+-Add Player death.
+-Add respawning.
+-Add a level start and end (checkpoints).
+
+Suggested features:
