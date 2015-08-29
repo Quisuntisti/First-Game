@@ -5,3 +5,7 @@ Changes to project. Only Alex will be choosing when the version changes, so just
 -Cut out 2 sprites, a player and a floor block.
 -Added collision boxes for both the player and the floor, box 2D for the floor, and a circle 2D for the player.
 -Added a Rigid body, which in short; adds gravity. I also fixed the Z axis to keep the player upright.
+-Added simple jumping.
+-Added simple movement.
+-Added a simple follow camera.
+-Ground checking added, stops the player from jumping in the air.
