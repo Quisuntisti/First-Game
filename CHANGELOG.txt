@@ -13,3 +13,9 @@ Changes to project. Only Alex will be choosing when the version changes, so just
 -Increased friction.
 -Tweaked Collision boxes and positions.
 -Changed Background colour.
+
+(30/08/15) (Robert did this sry alex cant understand ur shit ;_; )
+-Added custom spikes sprite
+-Spikes are now enemies
+-When the player falls on spikes, Application.LoadLevel is called.
+-Fixed getting stuck to walls.

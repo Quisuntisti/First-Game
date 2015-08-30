@@ -38,4 +38,15 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate(){
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundCheckRadius, whatIsGround);
 	}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "spike")
+        {
+            Debug.Log("Dead");
+            Application.LoadLevel("Level 1");
+        }
+
+
+    }
+
 }
