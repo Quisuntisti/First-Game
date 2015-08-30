@@ -7,7 +7,7 @@ bugs (Fix before attempting to add features):
 features:
 -Add simple enemy, spikes in this case.(done, custom made)
 -Add Player death.(WIP, player falls on spikes and gets put back to start)
--Add respawning.(WIP, using Application.LoadLevel
+-Add respawning.(WIP, using Application.LoadLevel)
 -Add a level start and end (checkpoints).
 
 Suggested features:

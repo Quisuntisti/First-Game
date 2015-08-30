@@ -1,6 +1,5 @@
-Changes to project. Only Alex will be choosing when the version changes, so just add to the latest.
 
-(29/08/15 - TBA) Pre-Alpha V1.0:
+(29/08/15 - 30/08/2015) Pre-Alpha V1.0:
 -Imported a temporary sprite sheet.
 -Cut out 2 sprites, a player and a floor block.
 -Added collision boxes for both the player and the floor, box 2D for the floor, and a circle 2D for the player.
@@ -14,7 +13,7 @@ Changes to project. Only Alex will be choosing when the version changes, so just
 -Tweaked Collision boxes and positions.
 -Changed Background colour.
 
-(30/08/15) (Robert did this sry alex cant understand ur shit ;_; )
+(30/08/15 - TBA) Pre-Alpha V1.1:
 -Added custom spikes sprite
 -Spikes are now enemies
 -When the player falls on spikes, Application.LoadLevel is called.

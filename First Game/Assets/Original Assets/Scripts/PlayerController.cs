@@ -22,17 +22,16 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown (KeyCode.Space) && grounded) {
-			rb.velocity = new Vector2(rb.velocity.x,jumpSpeed);
+			rb.velocity = new Vector2 (rb.velocity.x, jumpSpeed);
 		}
 
 		if (Input.GetKey (KeyCode.D)) {
-			rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+			rb.velocity = new Vector2 (moveSpeed, rb.velocity.y);
 		}
 
 		if (Input.GetKey (KeyCode.A)) {
-			rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+			rb.velocity = new Vector2 (-moveSpeed, rb.velocity.y);
 		}
-
 	}
 
 	void FixedUpdate(){
