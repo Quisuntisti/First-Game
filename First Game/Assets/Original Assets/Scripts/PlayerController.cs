@@ -10,11 +10,6 @@ public class PlayerController : MonoBehaviour {
 	public LayerMask whatIsGround;
 	public Transform groundCheck;
     public float groundCheckRadius;
-    private bool rightTouch;
-    private bool leftTouch;
-    public Transform CheckLeft;
-    public Transform CheckRight;
-
 
     private Rigidbody2D rb;
 
@@ -30,19 +25,17 @@ public class PlayerController : MonoBehaviour {
 			rb.velocity = new Vector2 (rb.velocity.x, jumpSpeed);
 		}
 
-		if (Input.GetKey (KeyCode.D) && !rightTouch ) {
+		if (Input.GetKey (KeyCode.D)) {
 			rb.velocity = new Vector2 (moveSpeed, rb.velocity.y);
 		}
 
-		if (Input.GetKey (KeyCode.A)&& !leftTouch) {
+		if (Input.GetKey (KeyCode.A)) {
 			rb.velocity = new Vector2 (-moveSpeed, rb.velocity.y);
 		}
 	}
 
 	void FixedUpdate(){
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundCheckRadius, whatIsGround);
-        rightTouch = Physics2D.OverlapCircle(CheckRight.position, groundCheckRadius, whatIsGround);
-        leftTouch = Physics2D.OverlapCircle(CheckLeft.position, groundCheckRadius, whatIsGround);
     }
     void OnTriggerEnter2D(Collider2D other)
     {
