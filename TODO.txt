@@ -17,3 +17,5 @@ Suggested features:
 -Add mobile assets
 
 ROB LOOK AT DIS https://www.assetstore.unity3d.com/en/#!/content/17261 (possible multiplayer?)
+AND DIS https://www.assetstore.unity3d.com/en/#!/content/23569 (ai assets? posibru? FREEEE)
+AND MAYBE DIS https://www.assetstore.unity3d.com/en/#!/content/10384 (inventory for free!?)
