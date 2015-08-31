@@ -11,11 +11,14 @@ public class PlayerController : MonoBehaviour {
 	public Transform groundCheck;
     public float groundCheckRadius;
 
+	private Animator anim;
+
     private Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
 		rb = gameObject.GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -31,6 +34,15 @@ public class PlayerController : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.A)) {
 			rb.velocity = new Vector2 (-moveSpeed, rb.velocity.y);
+		}
+
+		anim.SetFloat ("Speed", Mathf.Abs(rb.velocity.x));
+		anim.SetBool ("InAir", !grounded);
+
+		if (rb.velocity.x > 0) {
+			transform.localScale = new Vector3 (1f, 1f, 1f);
+		} else if (rb.velocity.x < 0) {
+			transform.localScale = new Vector3(-1f, 1f, 1f);
 		}
 	}
 
