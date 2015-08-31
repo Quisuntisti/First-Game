@@ -13,3 +13,5 @@ features:
 Suggested features:
 -Add AI enemies
 -Add throwables
+-Level design
+-Mobile support 
