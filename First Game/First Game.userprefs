@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Original Assets\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Revamped Physics\Assets\Scripts\Controller2D.cs">
     <Files>
-      <File FileName="Assets\Original Assets\Scripts\PlayerController.cs" Line="45" Column="40" />
+      <File FileName="..\..\Revamped Physics\Assets\Scripts\Player.cs" Line="7" Column="22" />
+      <File FileName="..\..\Revamped Physics\Assets\Scripts\Controller2D.cs" Line="109" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

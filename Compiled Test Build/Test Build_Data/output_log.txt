@@ -1,0 +1,32 @@
+Mono path[0] = 'C:/Users/matthew/Desktop/Test Build_Data/Managed'
+Mono path[1] = 'C:/Users/matthew/Desktop/Test Build_Data/Mono'
+Mono config path = 'C:/Users/matthew/Desktop/Test Build_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/matthew/Desktop/Test Build_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55069
+Multi-casting "[IP] 192.168.1.194 [Port] 55069 [Flags] 2 [Guid] 1066777344 [EditorId] 1287231500 [Version] 1048832 [Id] WindowsPlayer(Alex) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.194:55069]
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\matthew\Desktop\Test Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\matthew\Desktop\Test Build_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.098 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\matthew\Desktop\Test Build_Data\Managed\System.dll (this message is harmless)
