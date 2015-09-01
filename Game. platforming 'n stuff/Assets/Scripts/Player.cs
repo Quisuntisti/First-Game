@@ -6,6 +6,8 @@ public class Player : MonoBehaviour {
 
 	public float wallSlideSpeedMax = 3;
 
+	Animator animator;
+
 	public Vector2 wallJumpClimb;
 	public Vector2 wallJumpLeap;
 	public Vector2 wallJumpDrop;
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour {
 
 	void Start () {
 		controller = GetComponent<Controller2D> ();
+		animator = GetComponent<Animator> ();
 	}
 
 	void Update(){
@@ -68,6 +71,15 @@ public class Player : MonoBehaviour {
 			}
 		}
 
+		animator.SetFloat ("Moving", ((velocity.x < 0) ? velocity.x * -1 : velocity.x));
+		animator.SetBool ("OnWall", wallSliding);
+		animator.SetBool ("InAir", (!wallSliding && !controller.collisions.below) ? true : false);
+
+		if (velocity.x > 0) {
+			transform.localScale = new Vector3 (1f, 1f, 1f);
+		} else if(velocity.x < 0) {
+			transform.localScale = new Vector3 (-1f, 1f, 1f);
+		}
 
 		float targetVelocityX = input.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
